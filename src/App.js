@@ -16,6 +16,10 @@ function App() {
             <WriteArea/>
 
         </div>
+        <p id="footnote">By Abdulhakim Altunkaya, 2022 <br />
+        https://github.com/abdulhakim-altunkaya/flowerfox
+        </p>
+
     </div>
   );
 }

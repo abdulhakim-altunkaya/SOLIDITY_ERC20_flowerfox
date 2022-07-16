@@ -98,6 +98,15 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
+#footnote {
+    align-self: center;
+    background-color: #F8FAFB;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+    padding: 5px;
+}
+
 #writeAreaBurn {
     margin-top: 10px;
 }
