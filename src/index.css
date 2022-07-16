@@ -97,3 +97,43 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+
+#writeAreaBurn {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1460px) {
+    #writeAreaMint, #writeAreaBurn {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        margin-left: 2px;
+        width: 44%;
+    };
+
+}
+
+@media screen and (max-width: 1095px) {
+
+    #mainArea {
+        display: flex;
+        flex-direction: column;
+    }
+    #readArea {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 874px) {
+
+    #upperBar {
+        width: 70%;
+    }
+    #titleBar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+}

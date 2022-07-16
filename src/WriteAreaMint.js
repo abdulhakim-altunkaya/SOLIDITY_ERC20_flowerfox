@@ -24,18 +24,18 @@ const WriteAreaMint = () => {
       console.log(txReceipt);
   }
   return (
-    <p>
-      <button onClick={getTokens}>MINT FLOWERFOX TOKENS</button>
-      <input value={mintInput} type="number" id="mintAmount" 
-      onChange={e => setMintInput(e.target.value)} /> <br />
-      1) On the left, click on "Connect to Metamask" <br />
-      2) Copy FlowerFox Token Contract Address <br />
-      3) Open Metamask, make sure you are on "Matic Mainnet", <br />
-      4) On Metamask, click on "import tokens" <br />
-      5) Paste FlowerFox Token Contract Address in "Token Contract Address" <br />
-      6) Wait 5 seconds and then click on "Add Custom Token". <br />
-      7) You can mint between 1 to 10 tokens.
-    </p>
+      <div id='writeAreaMint'>
+        <button onClick={getTokens}>MINT FLOWERFOX TOKENS</button>
+        <input value={mintInput} type="number" id="mintAmount" 
+        onChange={e => setMintInput(e.target.value)} /> <br />
+        1) On the left, click on "Connect to Metamask" <br />
+        2) Copy FlowerFox Token Contract Address <br />
+        3) Open Metamask, make sure you are on "Matic Mainnet", <br />
+        4) On Metamask, click on "import tokens" <br />
+        5) Paste FlowerFox Token Contract Address in "Token Contract Address" <br />
+        6) Wait 5 seconds and then click on "Add Custom Token". <br />
+        7) You can mint between 1 to 10 tokens.
+      </div>
   )
 }
 

@@ -24,11 +24,11 @@ function WriteAreaBurn() {
   }
 
   return (
-    <p>
-      <button onClick={removeTokens}>BURN FLOWERFOX TOKENS</button>
-      <input value={burnInput} type="number" id="burnAmount" 
-      onChange={e => setBurnInput(e.target.value)} />
-    </p>
+      <div id='writeAreaBurn'>
+        <button onClick={removeTokens}>BURN FLOWERFOX TOKENS</button>
+        <input value={burnInput} type="number" id="burnAmount" 
+        onChange={e => setBurnInput(e.target.value)} />
+      </div>
   )
 
 }
